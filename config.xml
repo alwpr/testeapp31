@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.Endica"
+        version   = "1.0.0">
+
+    <name>Endica</name>
+
+    <description>
+        Entretenimento diversão e carnaval
+    </description>
+
+    <author href="http://mobiweb.com.br" email="suporte@mobiweb.com.br">
+        Equipe Mobi Web
+    </author>
+
+    <preference name="phonegap-version" value="cli-5.2.0" /> 
+
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<preference name="SplashScreenDelay" value="5000" />
+	<icon src="icon.png" />
+	<icon src="ldpi.png" platform="android" qualifier="ldpi" />
+    <icon src="mdpi.png" platform="android" qualifier="mdpi" />
+    <icon src="hdpi.png" platform="android" qualifier="hdpi" />
+    <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
+    <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
+    <icon src="fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+	<splash src="ldpi.png" platform="android" qualifier="ldpi" />
+    <splash src="mdpi.png" platform="android" qualifier="mdpi" />
+    <splash src="hdpi.png" platform="android" qualifier="hdpi" />
+    <splash src="portrait-xhdpi.png" platform="android" qualifier="port-xhdpi" />
+	<splash src="landscape-xhdpi.png" platform="android" qualifier="land-xhdpi" />
+    <splash src="portrait-xxhdpi.png" platform="android" qualifier="port-xxhdpi" />
+    <splash src="landscape-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />	
+</widget>
